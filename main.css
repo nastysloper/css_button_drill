@@ -24,8 +24,36 @@ small.page_no {
 .pagination a {
   color: #222;
   text-decoration: none;
+  text-align: center;
+  line-height: 35px;
+  float: left;
+  background-color: #F0F0F0;
+  border: 1.25px solid #808080;
+  min-width: 45px;
+  height: 35px;
 }
 
 .pagination a.disabled {
   color: #ccc;
+}
+
+a.active {
+  background-color: #585858;
+  color: #FFFFFF;
+}
+
+.pagination a.last {
+  //clear: both;
+}
+
+ol li{
+  display: inline;
+  float: left;
+}
+
+.footer {
+  line-height: 25px;
+  clear: both;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
